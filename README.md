@@ -31,7 +31,7 @@ The following schematic, designed using KiCad, illustrates the planned servo mot
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/3bcf117f-506e-4e0c-bf79-74e0ae4d4f52"
+    src="https://github.com/user-attachments/assets/263637c7-a87a-47cd-a4b7-2def0fbda4ca"
     alt="Servo Power Distribution Schematic"
     width="800"
   />
