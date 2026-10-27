@@ -29,7 +29,13 @@ The following schematic shows the planned servo motor connections, PWM control s
 
 **Servo Power Distribution Schematic**
 
-<img width="1280" height="796" alt="Servo Power Distribution Schematic" src="https://github.com/user-attachments/assets/3bcf117f-506e-4e0c-bf79-74e0ae4d4f52" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/3bcf117f-506e-4e0c-bf79-74e0ae4d4f52"
+    alt="Servo Power Distribution Schematic"
+    width="800"
+  />
+</p>
 
 The servo motors will be powered by a dedicated 5 V power supply, separate from the USB power supplied to the STM32 Nucleo board.
 
