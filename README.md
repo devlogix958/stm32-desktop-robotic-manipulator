@@ -1,6 +1,44 @@
-# stm32-desktop-robotic-manipulator
-STM32-based desktop robotic manipulator with manual control and automated movement sequences.
+# STM32 Desktop Robotic Manipulator
 
-<img width="480" height="358" alt="manipulator_github" src="https://github.com/user-attachments/assets/4645297b-01e9-4a66-bc2b-a9fbdeb0bbc7" />
+A desktop robotic manipulator controlled by an STM32 microcontroller, designed to pick up and move lightweight objects between predefined positions.
 
-[Microsoft Word Document.docx](https://github.com/user-attachments/files/33992098/Microsoft.Word.Document.docx)
+## Project Design
+
+The robotic manipulator is being designed in Autodesk Fusion 360.
+
+![Robotic Manipulator — Fusion 360 Model](https://github.com/user-attachments/assets/4645297b-01e9-4a66-bc2b-a9fbdeb0bbc7)
+
+## Hardware
+
+- **STM32 NUCLEO-F303K8** — main controller
+- **2× SG90 servo motors** — movement of the manipulator
+- **3× MG996R 270° servo motors** — movement of the robotic arm
+- **2× 5 V, 6 A power supplies** — servo power supply
+
+## Planned Features
+
+- Manual control of the robotic arm from a computer.
+- Automatic movement sequences for picking up and transferring objects.
+- Teaching and saving predefined positions.
+- Smooth servo movements.
+- Evaluation of positioning accuracy, repeatability and object transfer success rate.
+
+## Communication
+
+- **I²C** — planned communication interface for servo control, potentially using an external servo controller.
+- **USART** — communication between the computer and the STM32 for transmitting control commands and joint position values.
+
+The communication hardware and software will be selected and implemented during development.
+
+## Missing Components
+
+The following document contains the current list of components that still need to be purchased to complete the project:
+
+[**Microsoft Word Document — Missing Components and Purchase List**](https://github.com/user-attachments/files/33992098/Microsoft.Word.Document.docx)
+
+## Project Goal
+
+The goal is to build a functional, programmable robotic manipulator that can perform repeatable object transfer tasks. As an optional extension, we may implement simple inverse kinematics or object detection.
+
+The project will be evaluated through practical experiments measuring positioning accuracy, repeatability and successful object transfers.
+
