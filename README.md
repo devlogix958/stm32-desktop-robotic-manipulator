@@ -25,7 +25,7 @@ The robotic manipulator is being designed in Autodesk Fusion 360.
 
 ## Servo Power Distribution
 
-The following schematic shows the planned servo motor connections, PWM control signals and dedicated power supply.
+The following schematic, designed using KiCad, illustrates the planned servo motor connections, PWM control signals and dedicated power supply.
 
 **Servo Power Distribution Schematic**
 
