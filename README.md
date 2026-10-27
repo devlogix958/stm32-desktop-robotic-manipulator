@@ -2,11 +2,18 @@
 
 A desktop robotic manipulator controlled by an STM32 microcontroller, designed to pick up and move lightweight objects between predefined positions.
 
+
 ## Project Design
 
 The robotic manipulator is being designed in Autodesk Fusion 360.
 
-![Robotic Manipulator — Fusion 360 Model](https://github.com/user-attachments/assets/4645297b-01e9-4a66-bc2b-a9fbdeb0bbc7)
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/4645297b-01e9-4a66-bc2b-a9fbdeb0bbc7"
+    alt="Robotic Manipulator — Fusion 360 Model"
+    width="480"
+  />
+</p>
 
 ## Hardware
 
