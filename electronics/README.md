@@ -2,6 +2,10 @@
 
 This directory contains the planned electrical design for the STM32 Desktop Robotic Manipulator.
 
+## Design Software
+
+The electrical schematics are designed using **KiCad**, an open-source electronic design automation (EDA) tool.
+
 ## Servo Power Distribution
 
 The schematic illustrates the planned power distribution for the servo motors and the control system.
