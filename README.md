@@ -10,25 +10,29 @@ The robotic manipulator is being designed in Autodesk Fusion 360.
 
 ## Hardware
 
-- **STM32 NUCLEO-F303K8** — main controller
-- **2× SG90 servo motors** — movement of the manipulator
-- **3× MG996R 270° servo motors** — movement of the robotic arm
-- **2× 5 V, 6 A power supplies** — servo power supply
+- **STM32 NUCLEO-F303K8** — main controller.
+- **2× SG90 servo motors** — manipulator movement.
+- **3× MG996R 270° servo motors** — robotic arm movement.
+- **1× 5 V, 20 A switching power supply** — dedicated power supply for the servo motors.
+- **6× Panel-mounted 5×20 mm fuse holder with screw cap** — for installing a 10 A fuse to protect the power circuit.
 
 ## Servo Power Distribution
 
-The following schematic shows the servo motor connections, PWM control signals and separate power supply for the servos.
+The following schematic shows the planned servo motor connections, PWM control signals and dedicated power supply.
 
 **Servo Power Distribution Schematic**
 
-<img width="1280" height="796" alt="image" src="https://github.com/user-attachments/assets/3bcf117f-506e-4e0c-bf79-74e0ae4d4f52" />
+<img width="1280" height="796" alt="Servo Power Distribution Schematic" src="https://github.com/user-attachments/assets/3bcf117f-506e-4e0c-bf79-74e0ae4d4f52" />
 
-The servo motors are powered by a dedicated 5 V power supply, separate from the USB power supplied to the STM32 Nucleo board.
+The servo motors will be powered by a dedicated 5 V power supply, separate from the USB power supplied to the STM32 Nucleo board.
 
 - **+5V_SERVO** — dedicated 5 V power supply for the servo motors.
-- **GND** — common ground for the servo power supply and control signals.
-- **SERVO1_PWM – SERVO5_PWM** — PWM control signals from the STM32 Nucleo board.
+- **GND** — common ground between the servo power supply and the control system.
+- **SERVO1_PWM – SERVO5_PWM** — PWM control signals from the STM32 Nucleo board or an external servo controller, depending on the final design.
 - **USB power** — powers the STM32 Nucleo board independently of the servo power supply.
+- **10 A fuse** — planned overcurrent protection for the servo power circuit.
+
+The fuse rating, wiring and connectors will be verified against the expected servo current and the electrical ratings of the components before assembly.
 
 ## Planned Features
 
@@ -40,7 +44,7 @@ The servo motors are powered by a dedicated 5 V power supply, separate from the 
 
 ## Communication
 
-- **I²C** — planned communication interface for servo control, potentially using an external servo controller.
+- **I²C** — planned communication between the STM32 and an external servo controller, if used.
 - **USART** — communication between the computer and the STM32 for transmitting control commands and joint position values.
 
 The communication hardware and software will be selected and implemented during development.
@@ -49,7 +53,7 @@ The communication hardware and software will be selected and implemented during 
 
 The following document contains the current list of components that still need to be purchased to complete the project:
 
-[**Microsoft Word Document — Missing Components and Purchase List**](https://github.com/user-attachments/files/33992098/Microsoft.Word.Document.docx)
+[**Microsoft Word Document — Missing Components and Purchase List**](https://github.com/user-attachments/files/34014659/Microsoft.Word.Document.docx)
 
 ## Project Goal
 
