@@ -15,6 +15,21 @@ The robotic manipulator is being designed in Autodesk Fusion 360.
 - **3× MG996R 270° servo motors** — movement of the robotic arm
 - **2× 5 V, 6 A power supplies** — servo power supply
 
+## Servo Power Distribution
+
+The following schematic shows the servo motor connections, PWM control signals and separate power supply for the servos.
+
+**Servo Power Distribution Schematic**
+
+<img width="1280" height="796" alt="image" src="https://github.com/user-attachments/assets/3bcf117f-506e-4e0c-bf79-74e0ae4d4f52" />
+
+The servo motors are powered by a dedicated 5 V power supply, separate from the USB power supplied to the STM32 Nucleo board.
+
+- **+5V_SERVO** — dedicated 5 V power supply for the servo motors.
+- **GND** — common ground for the servo power supply and control signals.
+- **SERVO1_PWM – SERVO5_PWM** — PWM control signals from the STM32 Nucleo board.
+- **USB power** — powers the STM32 Nucleo board independently of the servo power supply.
+
 ## Planned Features
 
 - Manual control of the robotic arm from a computer.
@@ -41,4 +56,3 @@ The following document contains the current list of components that still need t
 The goal is to build a functional, programmable robotic manipulator that can perform repeatable object transfer tasks. As an optional extension, we may implement simple inverse kinematics or object detection.
 
 The project will be evaluated through practical experiments measuring positioning accuracy, repeatability and successful object transfers.
-
