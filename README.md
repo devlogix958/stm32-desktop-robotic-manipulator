@@ -2,7 +2,6 @@
 
 A desktop robotic manipulator controlled by an STM32 microcontroller, designed to pick up and move lightweight objects between predefined positions.
 
-
 ## Project Design
 
 The robotic manipulator is being designed in Autodesk Fusion 360.
@@ -15,13 +14,24 @@ The robotic manipulator is being designed in Autodesk Fusion 360.
   />
 </p>
 
+## Team Members and Responsibilities
+
+| Team Member | Responsibilities |
+|---|---|
+| **Artem Kovalenko** | Mechanical design and 3D modeling of the robotic manipulator using Autodesk Fusion 360. Responsible for designing the mechanical structure and arranging the components. |
+| **Daniil Komarnytskyi** | Electrical circuit design using KiCad. Responsible for the servo motor connection schematic, power distribution and electrical component selection. |
+| **Renat Moskalenko** | Desktop control software development. Responsible for creating a computer application for sending commands to the STM32 and controlling the robotic manipulator. |
+| **Danylo Lysenko** | STM32 firmware development. Responsible for programming the microcontroller, generating PWM signals for servo control and integrating the hardware and software components. |
+
+All team members will cooperate during assembly, testing, debugging and final evaluation of the robotic manipulator.
+
 ## Hardware
 
 - **STM32 NUCLEO-F303K8** — main controller.
 - **2× SG90 servo motors** — manipulator movement.
 - **3× MG996R 270° servo motors** — robotic arm movement.
 - **1× 5 V, 20 A switching power supply** — dedicated power supply for the servo motors.
-- **6× Panel-mounted 5×20 mm fuse holder with screw cap** — for installing a 10 A fuse to protect the power circuit.
+- **6× Panel-mounted 5×20 mm fuse holders with screw caps** — for installing a 10 A fuse to protect the power circuit.
 
 ## Servo Power Distribution
 
@@ -67,7 +77,6 @@ The communication hardware and software will be selected and implemented during 
 The following document contains the current list of components that still need to be purchased to complete the project:
 
 [**Microsoft Word Document — Missing Components and Purchase List**](https://github.com/user-attachments/files/34038817/Microsoft.Word.Document.docx)
-
 
 ## Project Goal
 
