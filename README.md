@@ -16,14 +16,14 @@ The robotic manipulator is being designed in Autodesk Fusion 360.
 
 ## Team Members and Responsibilities
 
-| Team Member | Responsibilities |
-|---|---|
-| **Artem Kovalenko** | Mechanical design and 3D modeling of the robotic manipulator using Autodesk Fusion 360. Responsible for designing the mechanical structure and arranging the components. |
-| **Daniil Komarnytskyi** | Electrical circuit design using KiCad. Responsible for the servo motor connection schematic, power distribution and electrical component selection. |
-| **Renat Moskalenko** | Desktop control software development. Responsible for creating a computer application for sending commands to the STM32 and controlling the robotic manipulator. |
-| **Danylo Lysenko** | STM32 firmware development. Responsible for programming the microcontroller, generating PWM signals for servo control and integrating the hardware and software components. |
+| Team Member | Development Area | Main Responsibilities |
+|---|---|---|
+| **Daniil Komarnytskyi** | Hardware & Servo Drivers | STM32 configuration, PWM generation, timer setup, I²C communication, and servo motor drivers. Also responsible for the KiCad electrical schematic, power distribution, and electrical component selection. |
+| **Danylo Lysenko** | Motion Control & Automation | Smooth servo movements, motion interpolation, Manual/Auto operating modes, automated movement sequences, and Teach & Repeat functionality. |
+| **Artem Kovalenko** | Robot Kinematics | Forward and inverse kinematics, the manipulator's geometric model, and joint limits. Also responsible for mechanical design and 3D modeling in Autodesk Fusion 360. |
+| **Renat Moskalenko** | Communication & Desktop Application | USART communication, command protocol, message parsing and handling, and the desktop application used to control the manipulator from a PC. |
 
-All team members will cooperate during assembly, testing, debugging and final evaluation of the robotic manipulator.
+All team members will cooperate during assembly, firmware integration, testing, debugging, and final evaluation of the robotic manipulator.
 
 ## Hardware
 
