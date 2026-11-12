@@ -21,7 +21,7 @@ The robotic manipulator is being designed in Autodesk Fusion 360.
 | **Daniil Komarnytskyi** | Hardware & Servo Drivers | STM32 configuration, PWM generation, timer setup, I²C communication, and servo motor drivers. Also responsible for the KiCad electrical schematic, power distribution, and electrical component selection. |
 | **Danylo Lysenko** | Motion Control & Automation | Smooth servo movements, motion interpolation, Manual/Auto operating modes, automated movement sequences, and Teach & Repeat functionality. |
 | **Artem Kovalenko** | Robot Kinematics | Forward and inverse kinematics, the manipulator's geometric model, and joint limits. Also responsible for mechanical design and 3D modeling in Autodesk Fusion 360. |
-| **Renat Moskalenko** | Communication & Desktop Application | USART communication, command protocol, message parsing and handling, and the desktop application used to control the manipulator from a PC. |
+| **Renat Moskalenko** | Embedded Communication & Desktop Analytics | Embedded C development for high-frequency telemetry (DAQ), asynchronous DMA-based USART communication, and secure binary command protocols on the STM32. Also responsible for the desktop engineering application used for real-time data visualization, live controller tuning, and manipulator control. |
 
 All team members will cooperate during assembly, firmware integration, testing, debugging, and final evaluation of the robotic manipulator.
 
