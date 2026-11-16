@@ -74,7 +74,8 @@ The communication hardware and software will be selected and implemented during 
 
 ## Missing Components
 
-The following document contains the current list of components that still need to be purchased to complete the project:[Microsoft.Word.Document.docx]
+The following document contains the current list of components that still need to be purchased to complete the project:
+
 [**Microsoft Word Document — Missing Components and Purchase List**](https://github.com/user-attachments/files/34935506/Microsoft.Word.Document.docx)
 
 ## Project Goal
